@@ -1,6 +1,6 @@
 var express = require('express');
 var mongoose = require('mongoose');
-var bodyparser= require('body-parser');
+/*var bodyparser= require('body-parser');
 const input1 = require('login_model');
 const input = require('data_model');
 const query_auth = require('../prototye/query_model');
@@ -11,7 +11,7 @@ const notes_8th=require('../prototye/8th_notes');
 const notes_9th=require('../prototye/9th_notes');
 const notes_10th=require('../prototye/datamodel/10th_notes');
 const notes_11th=require('../prototye/datamodel/11th_notes');
-const notes_12th=require('../prototye/datamodel/12th_notes');
+const notes_12th=require('../prototye/datamodel/12th_notes');*/
 const mailer = require('nodemailer');
 //connection to DATAbase
 mongoose.connect('mongodb+srv://admin_project:<myworkisgood>@myproject-s70mj.gcp.mongodb.net/<test>?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology: true});
