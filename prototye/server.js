@@ -1,7 +1,7 @@
 var express = require('express');
 var mongoose = require('mongoose');
-/*var bodyparser= require('body-parser');
-const input1 = require('login_model');
+var bodyparser= require('body-parser');
+/*const input1 = require('login_model');
 const input = require('data_model');
 const query_auth = require('../prototye/query_model');
 const auth = require('../prototye/blog_model');
